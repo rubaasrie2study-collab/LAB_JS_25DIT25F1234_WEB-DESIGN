@@ -1,0 +1,65 @@
+body{
+    background-color: #f5f6fa;
+    font-family: Arial, sans-serif;
+}
+
+/* Blue Theme Color */
+:root{
+    --main-blue: #3f3dbf;
+}
+
+/* Navbar */
+.navbar{
+    background-color: var(--main-blue) !important;
+}
+
+/* Title Section */
+.page-title{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.page-title h2{
+    font-weight: 600;
+}
+
+.page-title p{
+    color: gray;
+    font-size: 14px;
+}
+
+/* Cards */
+.lab-card{
+    max-width: 550px;
+    margin: 20px auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+    border: none;
+}
+
+/* Blue Button */
+.btn-blue{
+    background-color: var(--main-blue);
+    color: white;
+}
+
+.btn-blue:hover{
+    background-color: #2e2ca0;
+    color: white;
+}
+
+/* Final Card */
+.final-card{
+    border: 2px solid #198754;
+}
+
+/* Footer */
+footer{
+    background-color: var(--main-blue);
+    color: white;
+    text-align: center;
+    padding: 12px;
+    margin-top: 60px;
+    font-size: 14px;
+}
+
